@@ -1,0 +1,32 @@
+1.what are branches?
+2.How to create branch?
+3.how to check out branch?
+4.how to merge branch to master?
+5.how to delete branch(local and remote)?
+
+
+step1. create branch
+
+git branch"branch name"
+
+
+step2.Checkout branch  (entering into branch)
+
+git checkout"branch name"
+touch test2.txt (creating file)
+git status
+git commit -m"added test2.txt"
+git status
+git push -u origin branch name (pushing into cloud)
+ 
+step3: merge into master
+
+
+git checkout master
+git merge branchname 
+git push -u origin master
+  
+step4:delete branch
+
+git branch -d"branchname"
+git push -u origin --delete branchname

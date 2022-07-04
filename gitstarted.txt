@@ -1,0 +1,10 @@
+git init
+git status
+git add
+git commit -m"added/modified office2019.cmd"
+git remote add origin https://github.com/Thavva-Ganesh-kumar-reddy/REPO2.git
+git push -u origin master
+git config --global user.email "thavvareddy7@gmail.com"
+git config --global user.name "Thavva-ganesh-kumar-reddy"
+git log
+git --help
